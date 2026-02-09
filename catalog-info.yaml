@@ -145,7 +145,7 @@ spec:
         entityRef: ${{ steps.catalog.output.entityRef }}
       - title: View in ArgoCD
         icon: catalog
-        url: https://crispy-spoon-x99jpqwrqv52v4p6-ARGOCD_PORT_NUMBER_PLACEHOLDER.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/applications/argocd/${{ parameters.projectName }}-${{ parameters.teamIdentifier }}-${{ parameters.releaseStage }}
+        url: https://crispy-spoon-x99jpqwrqv52v4p6-30100.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/applications/argocd/${{ parameters.projectName }}-${{ parameters.teamIdentifier }}-${{ parameters.releaseStage }}
       - title: View in Dynatrace
         icon: catalog
         url: https://fov31014.apps.dynatrace.com
