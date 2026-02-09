@@ -2,6 +2,9 @@
 
 echo "[post-create] start" >> ~/status
 
+# Fix Docker API version mismatch
+export DOCKER_API_VERSION=1.43
+
 # this runs in background after UI is available
 
 # (optional) upgrade packages

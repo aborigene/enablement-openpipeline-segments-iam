@@ -37,6 +37,9 @@ RUN /tmp/scripts/docker.sh
 # change ownership of the home directory
 RUN chown -R ${USERNAME}:${USERNAME} /home/${USERNAME}
 
+# Set Docker API version to match daemon compatibility
+ENV DOCKER_API_VERSION=1.43
+
 WORKDIR /home/${USERNAME}
 USER ${USERNAME}
 

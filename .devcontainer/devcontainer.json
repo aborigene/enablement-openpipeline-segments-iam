@@ -26,6 +26,11 @@
 		}
 	},
 
+	// Set environment variables to fix Docker API version mismatch
+	"containerEnv": {
+		"DOCKER_API_VERSION": "1.43"
+	},
+
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		80,
